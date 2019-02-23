@@ -6,18 +6,16 @@ output "aws_vpc_vpc_devops_id" {
   value = "${aws_vpc.vpc_devops.id}"
 }
 
-
 output "aws_subnet_subnet_01_devops_id" {
   value = "${aws_subnet.subnet_01_devops.id}"
 }
-
 
 output "aws_subnet_subnet_02_devops_id" {
   value = "${aws_subnet.subnet_02_devops.id}"
 }
 
 output "aws_subnet_subnet_03_devops_id" {
-   value = "${aws_subnet.subnet_03_devops.id}"
+  value = "${aws_subnet.subnet_03_devops.id}"
 }
 
 output "aws_internet_gateway_internet_gateway_devops_id" {
