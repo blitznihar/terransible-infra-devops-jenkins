@@ -28,6 +28,3 @@ module "aws_compute" {
     aws_subnet_subnet_01_devops_id = "${module.aws_network.aws_subnet_subnet_01_devops_id}"
 
 }
-
-
-#ssh-copy-id user@hostname.example.com to destination servers
